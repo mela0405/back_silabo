@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "src": "silabo_s7_back/wsgi.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.11.3" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/staticfiles/(.*)",
+      "dest": "/staticfiles/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "silabo_s7_back/wsgi.py"
+    }
+  ]
+}

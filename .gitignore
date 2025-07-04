@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.pyc
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+# .env/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media/
+# staticfiles/
+
+# Migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# env files
+.env
+
+# Logs
+*.log
+
+# pipenv
+Pipfile.lock
+
+# Pyre type checker
+.pyre/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Sphinx documentation
+docs/_build/
+
+# dotenv environment variables file
+.env.*
+
+# dotenv override file
+.env.override
+
+# Django static files (if you collect static files)
+# static/
+
+# Ignore migrations from 3rd party apps if needed
+# <app_name>/migrations/
+
+# Others
+*.sqlite3
+
